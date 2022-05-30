@@ -1,0 +1,48 @@
+doctype html
+html(lang="hu")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Sas Csanad Web Developer
+
+        link(rel="stylesheet", href="./css/style.css")
+        link(rel="stylesheet", href="./css/bootstrap.css")
+        <link href='https://css.gg/menu.css' rel='stylesheet'>
+        //- Line Icons
+        link(rel="stylesheet", href="https://cdn.lineicons.com/3.0/lineicons.css")
+        
+        //- GSAP
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer) 
+
+        //- JS
+        script(src="./js/bootstrap.bundle.js" defer) 
+        script(src="./js/animate.js" defer) 
+
+        //- ScrollMagic
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js" defer)
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js" defer)  
+    body
+        .container-fluid#bg
+            nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent.text-dark#nav-bar
+                .container-fluid.d-lg-flex.justify-content-end#navContainer
+                    button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav')
+                        span.navbar-toggler-icon
+                    .collapse.navbar-collapse.text-light.d-lg-flex.justify-content-center#navbarNav
+                        .container.d-lg-flex.flex-row.justify-content-evenly.w-25
+                            div.nav-div.d-lg-flex.justify-content-center.text-align-center#navNavs
+                                a.nav-link.active(href="") Rólam
+                            div.nav-div.d-lg-flex.justify-content-center.text-align-center#navNavs
+                                a.nav-link.active(href="") Referenciák
+                            div.nav-div.d-lg-flex.justify-content-center.text-align-center#navNavs
+                                a.nav-link.active(href="") Szolgáltatásaim
+            .container.min-vw-25#introducion
+                h1.my-3 Üdv, Csanád Vagyok 
+                h3.mb-3 Egy ambiciózus webfejlesztő
+
+            .container.w-25.text-center.text-light.h-50#down
+                a(href="http://google.com")
+                    svg.arrow(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28' width='28' height='28')#arrow
+                        path(fill='none' d='M0 0h24v24H0z')
+                        path(d='M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z' fill='rgba(255,255,255,1)')
+                p Görgessen lejebb
