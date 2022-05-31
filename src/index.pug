@@ -41,8 +41,23 @@ html(lang="hu")
                 h3.mb-3 Egy ambiciózus webfejlesztő
 
             .container.w-25.text-center.text-light.h-50#down
-                a(href="http://google.com")
+                a(href="#aboutMe")
                     svg.arrow(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28' width='28' height='28')#arrow
                         path(fill='none' d='M0 0h24v24H0z')
                         path(d='M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z' fill='rgba(255,255,255,1)')
                 p Görgessen lejebb
+        .container-fluid.d-flex.flex-column.justify-content-center.text-center#aboutMe
+            .container.mt-1
+                img#portrait(src="https://randomuser.me/api/portraits/men/9.jpg", alt="", srcset="")
+            .container
+                h2 Hi There
+            .container
+                hr
+            .container#aboutTextContainer.mt-3
+                p#aboutText
+                    |I'am a 17 years old webdeveloper based in 
+                    span#location Budapest, Hungary 
+                    |I have Passion to anything IT related, mostly webdeveloping
+        .container-fluid.d-flex.flex-column-justify-content-center.align-content-center#whatido
+            p.text-center.lead#whatidoText WHAT I DO
+

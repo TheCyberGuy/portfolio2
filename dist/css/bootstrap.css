@@ -99,13 +99,13 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+/* 
 hr {
   float: left;
   width: 7vh;
   border: 7px solid #FCA311;
 	border-radius: 5px;
-}
+} */
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
